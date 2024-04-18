@@ -40,5 +40,5 @@ app.get('/', (_req, res) => {
 const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, () => {
-    console.log(`Server running on ${process.env.DEV_MODE} mode on port ${PORT}`);
+    console.log(`Server running mode on port ${PORT}`);
 });
