@@ -1,0 +1,244 @@
+.app_container {
+    padding: 140px 0 36px 0;
+    background: #f5f5f5;
+}
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.tablist {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+}
+
+.tabitem {
+    padding: 0px 25px;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.tablink {
+    padding: 20px 25px;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    padding: 23px 23px 23px 0;
+    background-color: var(--white-color);
+}
+
+.address-item {
+    margin-left: 23px;
+    display: flex;
+    align-items: center;
+}
+
+.address-text {
+    font-weight: 400;
+}
+
+.address-link {
+    font-weight: 500;
+    margin-left: 8px;
+    font-size: 1.8rem;
+}
+
+.orders {
+    margin-top: 16px;
+    background-color: var(--white-color);
+}
+
+.order-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.order-head__left {
+    display: flex;
+    align-items: center;
+}
+
+.order-head__right {
+    display: flex;
+    align-items: center;
+}
+
+.name-shop {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.actions {
+    padding: 3px 8px;
+    margin-left: 8px;
+}
+
+.chat-box {
+    background-color: var(--primary-color);
+    border-radius: 2px;
+
+    &:hover {
+        background-color: #d73211;
+        cursor: pointer;
+    }
+}
+
+.review {
+    background-color: #fafafa;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.04);
+        cursor: pointer;
+    }
+}
+
+.chat-text {
+    color: var(--white-color);
+    margin-left: 4px;
+    font-size: 1.2rem;
+}
+
+.review-text {
+    color: #555555;
+    margin-left: 4px;
+    font-size: 1.2rem;
+}
+
+.shopee-svg-icon {
+    display: inline-block;
+    height: 0.9em;
+    width: 0.9em;
+    fill: currentColor;
+    position: relative;
+}
+
+.icon-free-shipping-line {
+    color: #00bfa5;
+    font-size: 1.8rem;
+    margin: 0 4px 2px 0;
+    vertical-align: middle;
+    stroke: #26aa99;
+}
+
+.shipping {
+    color: rgba(0, 0, 0, 0.87);
+    color: #26aa99;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 1.4rem;
+    margin-left: 4px;
+}
+
+.order-product {
+    padding: 23px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.order-product__item {
+    display: flex;
+}
+
+.order-product__img {
+    background: #e1e1e1;
+    border: 1px solid #e1e1e1;
+    flex-shrink: 0;
+    height: 80px;
+    width: 80px;
+}
+
+.order-product__info {
+    margin-left: 8px;
+}
+
+.order-product__name {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+.order-product__quantity {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    margin-top: 10px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 13px 23px;
+}
+
+.total-text {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 2rem;
+    margin: 0 8px;
+}
+
+.total {
+    font-size: 2.4rem;
+    color: var(--primary-color);
+    line-height: 3rem;
+}
+
+.order-btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 13px 23px;
+}
+
+.btn {
+    min-width: 124px;
+    height: 34px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    padding: 0 12px;
+    outline: none;
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6rem;
+}
+
+.btn.btn--primary {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    &:hover {
+        background-color: #d73211;
+    }
+    margin-right: 12px;
+}
+
+.btn.btn--lh {
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    color: #555;
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.03);
+        border: 1px solid rgba(0, 0, 0, 0.09);
+    }
+}

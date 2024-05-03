@@ -1,0 +1,239 @@
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 4px solid var(--primary-color);
+}
+
+.grid {
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.grid__row {
+    margin: 0 -5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__column-2-4 {
+    padding: 0 5px;
+    width: 20%;
+}
+
+.footer__item {
+    background-color: #fbfbfb;
+}
+
+.footer__heading {
+    margin-top: 40px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.footer-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-list-pay {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-item__link {
+    text-decoration: none;
+    color: #737373;
+    font-size: 1.2rem;
+    padding: 4px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-item__link:hover {
+    color: var(--primary-color);
+}
+
+.footer-pay-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-pay-item__link {
+    cursor: pointer;
+    text-decoration: none;
+    margin: 3px;
+    padding: 4px;
+    width: 58px;
+    height: 29px;
+    border-radius: 2px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.footer-item__icon {
+    font-size: 1.8rem;
+    margin-top: -2px;
+    margin-right: 8px;
+}
+
+.footer__download {
+    display: flex;
+}
+
+.footer__download-qr {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    border: 1px solid var(--border-color);
+}
+
+.footer__download-apps {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__download-app-link {
+    text-decoration: none;
+    padding: 4px;
+    margin: 4px 0;
+    box-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.1);
+}
+
+.footer__download-app-img {
+    height: 20px;
+}
+
+.footer__bottom {
+    background-color: #f5f5f5;
+    padding: 8px 0;
+}
+
+.footer-policy {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-policy__text {
+    padding: 0 25px;
+    margin-bottom: 24px;
+    display: block;
+    border-right: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.footer-policy__text span {
+    cursor: pointer;
+}
+
+.footer-policy__texte {
+    border-right: none;
+}
+
+.footer__text {
+    margin: 14px 0;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    text-align: center;
+    color: #737373;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-license__imglink {
+    margin: 0 28px;
+}
+
+.footer-license__imggg {
+    height: 42px;
+    width: 107px;
+}
+.footer-license__img {
+    background: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/9765d68a8945750d.png);
+}
+.footer-license__imgg {
+    background-position-x: 14.391143911439114%;
+    background-position-y: 99.41176470588235%;
+    background-size: 551.6666666666666% 477.77777777777777%;
+}
+
+.footer-license__img3 {
+    width: 48px;
+    height: 48px;
+}
+
+.footer-license__img2 {
+    background-position: 1.6286644951140066% 92.21556886227545%;
+    background-size: 1379.1666666666667% 447.9166666666667%;
+}
+
+.footer__discribe {
+    display: flex;
+    border-top: 1px solid #737373;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 44px 0;
+}
+
+.footer__discribe-text {
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.footer__discribe-list {
+    display: flex;
+}
+
+.footer__discribe-item {
+    list-style: none;
+}
+
+.footer__discribe-item {
+    border-right: 1px solid #bcbbbb;
+}
+
+.footer__discribe-item:first-child {
+    border-right: none;
+}
+
+.footer__discribe-item:last-child {
+    border-right: none;
+}
+
+.footer__discribe-link {
+    font-size: 1.4rem;
+    text-decoration: none;
+    margin: 0 4px;
+    color: rgba(0, 0, 0, 0.54);
+}
+.chat {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 12px;
+    z-index: 101;
+    box-shadow: 0 1px 3.125rem 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+.chat-box {
+    cursor: pointer;
+    padding: 10px 14px;
+}
+
+.chat__icon {
+    margin-right: 6px;
+    font-size: 2.6rem;
+    color: var(--primary-color);
+}
+.chat__text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.2rem;
+    color: var(--primary-color);
+}
